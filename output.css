@@ -1,0 +1,153 @@
+/* Color System */
+body {
+    background-color: #f8f9fa;
+    /* Gray 100 */
+    color: #333333;
+    /* Darkish Gray */
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+h1 {
+    color: #0397d6;
+    /* Blue */
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px #888888;
+}
+
+h2 {
+    color: #4c9f38;
+    /* Green */
+    font-size: 2em;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 1.2em;
+    font-weight: 400;
+    font-family: 'Georgia', serif;
+    color: #181818;
+    /* Text Gray */
+}
+
+.highlight {
+    color: #e83e8c;
+    /* Pink */
+    background-color: #e5e5e5;
+    /* Light Gray */
+    font-size: 1.1em;
+    font-weight: bold;
+    text-decoration: underline;
+    letter-spacing: 2px;
+}
+
+.shadow-text {
+    color: #fd6925;
+    /* Orange */
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+}
+
+.monospace {
+    font-family: 'Courier New', monospace;
+    font-size: 1em;
+    color: #009cdb;
+    /* Sky Blue */
+}
+
+a {
+    color: #6610f2;
+    /* Indigo */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #3f51b5;
+    /* Lighter Purple */
+    text-decoration: underline;
+}
+
+ul {
+    font-size: 1em;
+    color: #495057;
+    /* Gray 700 */
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Background colors for sections */
+.section-background {
+    background-color: #c8e6ff;
+    /* Light Blue */
+}
+
+.section-hover:hover {
+    background-color: #027cb0;
+    /* BG Hover */
+}
+
+.input-field {
+    background-color: #f5f6f6;
+    /* Input Background */
+    border: 1px solid #d8d8d8;
+    /* Border Gray */
+    padding: 10px;
+}
+
+/* Border colors */
+.border-light {
+    border: 1px solid #d0d6da;
+    /* Iron Gray */
+}
+
+.border-dark {
+    border: 1px solid #343a40;
+    /* Gray 800 */
+}
+
+/* Button Colors */
+.button-primary {
+    background-color: #fd6925;
+    /* Orange */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.button-primary:hover {
+    background-color: #ff763b;
+    /* Orange 1200 */
+}
+
+.button-secondary {
+    background-color: #e63146;
+    /* SDG-1 */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.button-secondary:hover {
+    background-color: #c21e32;
+    /* SDG-4 */
+}
+
+/* SDG Colors */
+.sdg-color {
+    background-color: #e63146;
+    /* SDG 1 */
+    color: #fff;
+}
+
+.sdg-color:hover {
+    background-color: #dda83a;
+    /* SDG 2 */
+}

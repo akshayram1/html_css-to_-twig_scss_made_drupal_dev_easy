@@ -1,0 +1,97 @@
+// Variables
+//
+// Variables should follow the `$component-state-property-size` formula for
+// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
+
+// Color system
+$white: #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black: #000 !default;
+
+$grays: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$grays: map-merge(
+  (
+    '100': $gray-100,
+    '200': $gray-200,
+    '300': $gray-300,
+    '400': $gray-400,
+    '500': $gray-500,
+    '600': $gray-600,
+    '700': $gray-700,
+    '800': $gray-800,
+    '900': $gray-900
+  ),
+  $grays
+);
+$blue-100: #19486a;
+$blue: #0397d6;
+$indigo: #6610f2 !default;
+$purple: #6f42c1 !default;
+$pink: #e83e8c !default;
+$red: #dc3545 !default;
+$orange: #fd6925 !default;
+$orange-1200: #FF763B !default;
+$purple-600: #CBA5E3 !default;
+$gold: #F8DB7F !default;
+$aqua: #A2E8D1 !default;
+$light-blue: #C8E6FF !default;
+$light-gray: #E5E5E5 !default;
+$scroll-track: #E7EDF4 !default;
+
+
+$yellow: #fcc30b;
+$green: #4c9f38 !default;
+$teal: #20c997 !default;
+$cyan: #28bfe7 !default;
+$brown: #4b4b4b !default;
+$text-gray: #181818 !default;
+$text-blue: $blue-100 !default;
+$light-gray: #fbfcfc !default;
+$medium-gray: #d3dae2 !default;
+$dark-gray: #7e7e7e !default;
+$cadet-blue: #a0b4c1 !default;
+$sky-blue: #009cdb !default;
+$frost-blue: #EDF4FC !default;
+$pale-sky: #68737D !default;
+$text-light-gray: #656565 !default;
+$border-gray: #d8d8d8 !default;
+$blue-600: rgba(3,151,214,0.6) !default;
+$darkish-gray: #333333 !default;
+$iron-gray: #D0D6DA !default;
+$text-disabled: #C2C8CC !default;
+$icon-background: #f2f2f2 !default;
+$breadcrumb-color: #87929D !default;
+$border-tags: #BAC6D5 !default;
+$bg-hover: #027cb0 !default;
+$border-hover: #0274a4 !default;
+$input-background: #F5F6F6 !default;
+$red: #E35B66 !default;
+$ice-gray: #E9EBED !default;
+
+// SDG Colors
+$sdg-1: #e63146;
+$sdg-2: #dda83a;
+$sdg-3: #4c9f38;
+$sdg-4: #c21e32;
+$sdg-5: #ef3f2a;
+$sdg-6: #03adda;
+$sdg-7: #fdb616;
+$sdg-8: #8e1837;
+$sdg-9: #f26c24;
+$sdg-10: #e32071;
+$sdg-11: #f89c24;
+$sdg-12: #cf8d28;
+$sdg-13: #46763b;
+$sdg-14: #007cbb;
+$sdg-15: #3faf49;
+$sdg-16: #00558a;
+$sdg-17: #183567;
